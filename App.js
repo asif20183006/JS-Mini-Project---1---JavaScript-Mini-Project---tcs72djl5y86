@@ -7,7 +7,6 @@ for(let i=0;i<numberOfdrums;i++){
     });
 }
 document.addEventListener("keypress",function(event){
-    alert(event.key);
     makeSound(event.key);
     buttonAnimation(event.key);
 });
