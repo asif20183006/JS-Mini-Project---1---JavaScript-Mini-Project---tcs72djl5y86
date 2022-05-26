@@ -1,6 +1,17 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #0f0f0f;
+  
+}
+.set{
+  border-radius: 11%;
+  position: relative;
+  width: 100vh;
+  height: 100vh;
+  background-size:cover;
+  background-position: center;
+  background-image: url('images/drum-kit-bg.jpg');
+  font-size: 2em;
 }
 
 h1 {
@@ -15,42 +26,80 @@ footer {
   color: #DBEDF3;
   font-family: sans-serif;
 }
-
-.w {
-  background-image: url("images/tom1.png");
+.drum{
+  height: 12%;
+  width: 22%;
+  background: #180A0A;
+  color: #faf0f0;
+  border: #603601;
+  opacity: 0.3;
+  border-radius: 100%;
+}
+ .w {
+  top: 31%;
+  left: -27%;
+  bottom: 0%;
+  right: 0%;
+  position: relative;
 }
 
 .a {
-  background-image: url("images/tom2.png");
+  top: 31%;
+  left: -20%;
+  bottom: 0%;
+  right: 0%;
+  position: relative;
 }
-
+ 
 .s {
-  background-image: url("images/tom3.png");
+  border-radius: 122%;
+  top: 45%;
+  left: 11%;
+  bottom: 4%;
+  right: 0%;
+  position: relative;
+  background: black;
+  width: 27%;
+  height: 21%;
 }
 
 .d {
-  background-image: url("images/tom4.png");
+  top: 34%;
+  left: 40%;
+  bottom: 0%;
+  right: 1%;
+  position: relative;
+  width: 27%;
+  height: 21%;
 }
 
 .j {
-  background-image: url("images/snare.png");
+  inset: -16% 1% 0% -38%;
+  position: relative;
+  height: 9%;
 }
 
 .k {
-  background-image: url("images/crash.png");
+  top: 2%;
+  left: 56%;
+  bottom: 0%;
+  right: 2%;
+  position: relative;
+  height: 22%;
+  width: 33%;
+  background: #b68859;
 }
 
 .l {
-  background-image: url("images/kick.png");
+  inset: -17% 2% 0% -81%;
+  position: relative;
+  height: 12%;
+  width: 14%;
+  background: rgb(182, 136, 89);
 }
 
 .set {
   margin: 10% auto;
-}
-
-.game-over {
-  background-color: red;
-  opacity: 0.8;
 }
 
 .pressed {
@@ -58,24 +107,4 @@ footer {
   opacity: 0.5;
 }
 
-.red {
-  color: red;
-}
 
-.drum {
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
-}
