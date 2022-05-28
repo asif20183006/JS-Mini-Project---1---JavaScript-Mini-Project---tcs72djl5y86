@@ -30,11 +30,12 @@ footer {
   height: 12%;
   width: 22%;
   background: #180A0A;
-  color: #09f7f7;
+  color: white;
   border: #603601;
   opacity: 0.8;
   border-radius: 100%;
-  font-size: 209%;
+  font-size: 200%;
+  font-family: 'Cookie', cursive;
 }
  .w {
     top: 36%;
