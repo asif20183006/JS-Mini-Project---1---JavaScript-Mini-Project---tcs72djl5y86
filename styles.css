@@ -38,7 +38,7 @@ footer {
   font-family: 'Cookie', cursive;
 }
  .w {
-    top: 36%;
+    top: 39%;
     left: -11%;
     bottom: 0%;
     right: 0%;
@@ -69,7 +69,7 @@ footer {
 }
 
 .d {
-  top: 27%;
+  top: 30%;
   left: 47%;
   bottom: 0%;
   right: 1%;
@@ -79,7 +79,7 @@ footer {
 }
 
 .j {
-  inset: 15% 1% 0% -44%;
+  inset: 18% 1% 0% -44%;
   position: relative;
   height: 4%;
   background: #e6b17c;
@@ -97,7 +97,7 @@ footer {
 }
 
 .l {
-  inset: 36% 2% 0% -21%;
+  inset: 39% 2% 0% -21%;
   position: relative;
   height: 7%;
   width: 14%;
