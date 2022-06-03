@@ -44,10 +44,10 @@ footer {
     right: 0%;
     position: relative;
     height: 9%;
-}
+  }
 
 .a {
-  top: 13%;
+  top: 14%;
   left: -25%;
   bottom: 0%;
   right: 0%;
@@ -111,14 +111,12 @@ footer {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }
-span{
-  padding-right: 10%;
+
+.social{
+  font-size: 2rem;
+  padding-left: 19em;
 }
+
 a{
   text-decoration: none;
 }
-footer{
-  padding-top: 3%;
-}
-
-
