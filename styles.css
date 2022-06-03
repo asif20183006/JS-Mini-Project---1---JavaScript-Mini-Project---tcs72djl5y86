@@ -112,9 +112,11 @@ footer {
   opacity: 0.5;
 }
 
-.social{
-  font-size: 2rem;
-  padding-left: 19em;
+footer{
+  padding-top: 2em;
+}
+span{
+  padding-right: 2em;
 }
 
 a{
