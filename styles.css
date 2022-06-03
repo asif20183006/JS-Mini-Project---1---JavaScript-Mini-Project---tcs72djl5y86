@@ -6,7 +6,7 @@ body {
 .set{
   position: relative;
   width: 100vh;
-  height: 75vh;
+  height: 70vh;
   background-size:cover;
   background-image: url('images/new-look-drumKit.jpg');
 }
@@ -113,6 +113,12 @@ footer {
 }
 span{
   padding-right: 10%;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  padding-top: 3%;
 }
 
 
